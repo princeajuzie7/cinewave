@@ -3,6 +3,7 @@ import axios from "axios";
 const Acesstoken =process.env.NEXT_PUBLIC_ACESS_TOKEN;
 // add your Acesstoken credentials here
 
+
 export default axios.create({
   baseURL: "https://api.themoviedb.org/3/",
   headers: {
